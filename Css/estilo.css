@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.blender{
+    width: 850px;x;
+    height: 500px;
+     /*background-color: rgb(19, 49, 219);*/
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%) ;/*esto es para centrar la imagen en la pantalla*/
+    background-image: url("../Img/licuadoraApagada.png");
+    background-size: contain;/*con este comando se ajusta el tamanho de la imagen*/
+    background-repeat: no-repeat;/*esto me permite que no se repita la imagen*/
+    background-position: center;/*con esto centro la imagen en la div que es su contenedor*/
+}
+ .blender.active{
+            background-image: url("../Img/licuadoraEncendida.gif");
+ }
+
+
+      
+
+
+
+.blender-button{
+    width: 70px;
+    height: 70px;
+    /*  background-color: cornsilk; */ /*para comentar mas rapiso teclas contr+ shif+ A*/
+    margin: 350px auto 0px;
+}
